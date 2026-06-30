@@ -1,104 +1,107 @@
-{% extends 'base.html' %} {% block title %}About Me - My Flask Site{% endblock %}
-{% block content %}
+{% extends 'base.html' %} {% block title %}About Me - My Flask Site{% endblock
+%} {% block content %}
 
 <div class="container py-5">
   <h1 class="text-center mb-5">About Me</h1>
-  <div class="row">
-    <!-- Map Column -->
-    <div class="col-lg-6 mb-4">
-      <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d720.1616988351769!2d151.16063594715152!3d-33.920257440674035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b08afb16153d%3A0xbd21d225e980c8aa!2sTempe%20High%20School!5e1!3m2!1sen!2sau!4v1782350616188!5m2!1sen!2sau"
-          width="100%"
-          height="400"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        >
-        </iframe>
+
+  <!-- Narrow overall content width -->
+  <div class="mx-auto" style="max-width: 1100px">
+    <div class="row g-4 align-items-center">
+      <!-- Text Box (still left, but larger text) -->
+      <div class="col-12 col-lg-7">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body p-4">
+            <h4 class="card-title fs-2">About Myself</h4>
+            <p class="card-text fs-5 mb-0">
+              Hello there! My name is Anderson Kho and I am currently a year 9
+              student at Tempe High School. I am currently studying Accelerated
+              Mathematics, Computer Technology and ISTEM (Engineering).
+            </p>
+          </div>
+        </div>
       </div>
 
-      <!-- Contact Info (moved below map) -->
-      <div class="contact-info mt-4">
-        <h4>Other Ways to Reach Me</h4>
-        <ul class="list-unstyled mb-0">
-          <li class="mb-2">
-            <strong>📍</strong> Unwins Bridge Rd, Tempe NSW 2044
-          </li>
-          <li class="mb-2"><strong>📞</strong> (+61) 434 667 414 </li>
-          <strong>🌐</strong> My Github: https://github.com/andersonkho
-          </li>
-          <li>
-            <strong>✉️</strong> Anderson.Kho@education.nsw.gov.au
-          </li>
-        </ul>
+      <!-- Image (larger on the right) -->
+      <div class="col-12 col-lg-5 d-flex align-items-center">
+        <img
+          src="{{ url_for('static', filename='images/hero1.jpg') }}"
+          class="img-fluid rounded shadow-sm w-100"
+          alt="Welcome"
+        />
       </div>
     </div>
+  </div>
 
-    <!-- Form Column -->
-    <div class="col-lg-6 mb-4">
-      <div class="contact-form">
-        <h4 class="mb-4">Send us a Message</h4>
-
-        <form action="#" method="POST">
-          <!-- Name Field -->
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name *</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              name="name"
-              placeholder="Employer"
-              required
-            />
+    <!-- Centered support card -->
+    <div class="row mt-4">
+      <div class="col-12 col-md-8 col-lg-6 mx-auto">
+        <div class="card h-100 text-center">
+          <img
+            src="{{ url_for('static', filename='images/feature3.jpg') }}"
+            class="card-img-top"
+            alt="Feature 3"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">24/7 Support</h5>
+            <p class="card-text">
+              Our dedicated team is here to help you anytime you need
+              assistance.
+            </p>
+            <a
+              href="{{ url_for('contact') }}"
+              class="btn btn-primary mx-auto mt-auto"
+            >
+              Contact Us
+            </a>
           </div>
-
-          <!-- Email Field -->
-          <div class="mb-3">
-            <label for="email" class="form-label">Email Address *</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              placeholder="example@gmail.com"
-              required
-            />
-          </div>
-
-          <!-- Subject Field -->
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <select class="form-select" id="subject" name="subject">
-              <option value="" selected>Choose a topic...</option>
-              <option value="general">General Inquiry</option>
-              <option value="support">Support</option>
-              <option value="feedback">Feedback</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-
-          <!-- Message Field -->
-          <div class="mb-3">
-            <label for="message" class="form-label">Message *</label>
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              rows="5"
-              placeholder="What can I help you with?""
-              required
-            ></textarea>
-          </div>
-
-          <!-- Submit Button -->
-          <button type="submit" class="btn btn-primary btn-lg w-100">
-            Send Message
-          </button>
-        </form>
+        </div>
       </div>
     </div>
   </div>
 </div>
 {% endblock %}
+
+
+*Add this next lesson:
+<!-- Support + Easy to Use cards -->
+<div class="row mt-4 g-4">
+  <!-- Card 3 -->
+  <div class="col-12 col-md-6">
+    <div class="card h-100 text-center">
+      <img
+        src="{{ url_for('static', filename='images/feature3.jpg') }}"
+        class="card-img-top"
+        alt="Feature 3"
+      />
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">24/7 Support</h5>
+        <p class="card-text">
+          Our dedicated team is here to help you anytime you need assistance.
+        </p>
+        <a href="{{ url_for('contact') }}" class="btn btn-primary mx-auto mt-auto">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 (right of 24/7 Support) -->
+  <div class="col-12 col-md-6">
+    <div class="card h-100 text-center">
+      <img
+        src="{{ url_for('static', filename='images/feature2.jpg') }}"
+        class="card-img-top"
+        alt="Feature 2"
+      />
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Easy to Use</h5>
+        <p class="card-text">
+          Simple and intuitive interface designed with users in mind.
+        </p>
+        <a href="{{ url_for('aboutme') }}" class="btn btn-primary mx-auto mt-auto">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
