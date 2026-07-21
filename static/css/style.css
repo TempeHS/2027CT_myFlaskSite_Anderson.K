@@ -4,12 +4,19 @@ body {
   padding-top: 70px; /* Space for fixed navbar */
 }
 
-/* Add more custom styles as needed */
-
-/* Custom styles for My Flask Site */
-
 body {
   padding-top: 70px; /* Space for fixed navbar */
+}
+
+/* Auto-hide navbar: slides up when not hovered */
+.navbar.fixed-top {
+  transform: translateY(calc(-100% + 10px)); /* leaves a 10px strip visible */
+  transition: transform 0.3s ease;
+}
+
+.navbar.fixed-top:hover,
+.navbar.fixed-top:focus-within {
+  transform: translateY(0);
 }
 
 /* Hero Carousel Styles */

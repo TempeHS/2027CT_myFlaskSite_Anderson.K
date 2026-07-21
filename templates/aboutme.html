@@ -32,76 +32,53 @@
     </div>
   </div>
 
-    <!-- Centered support card -->
-    <div class="row mt-4">
-      <div class="col-12 col-md-8 col-lg-6 mx-auto">
-        <div class="card h-100 text-center">
-          <img
-            src="{{ url_for('static', filename='images/feature3.jpg') }}"
-            class="card-img-top"
-            alt="Feature 3"
-          />
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">24/7 Support</h5>
-            <p class="card-text">
-              Our dedicated team is here to help you anytime you need
-              assistance.
-            </p>
-            <a
-              href="{{ url_for('contact') }}"
-              class="btn btn-primary mx-auto mt-auto"
-            >
-              Contact Us
-            </a>
-          </div>
+  <div class="row mt-4 g-4">
+    <!-- Card 3 -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100 text-center">
+        <img
+          src="{{ url_for('static', filename='images/feature3.jpg') }}"
+          class="card-img-top bottom-card-img"
+          alt="Feature 3"
+        />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">24/7 Support</h5>
+          <p class="card-text">
+            Our dedicated team is here to help you anytime you need assistance.
+          </p>
+          <a
+            href="{{ url_for('contact') }}"
+            class="btn btn-primary mx-auto mt-auto"
+          >
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 (right of 24/7 Support) -->
+    <div class="col-12 col-md-6">
+      <div class="card h-100 text-center">
+        <img
+          src="{{ url_for('static', filename='images/feature2.jpg') }}"
+          class="card-img-top bottom-card-img"
+          alt="Feature 2"
+        />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">My Projects</h5>
+          <p class="card-text">
+            A look at the projects I’ve built — and the ideas I’ve brought to
+            life.
+          </p>
+          <a
+            href="{{ url_for('myprojects') }}"
+            class="btn btn-primary mx-auto mt-auto"
+          >
+            Learn More
+          </a>
         </div>
       </div>
     </div>
   </div>
 </div>
 {% endblock %}
-
-
-*Add this next lesson:
-<!-- Support + Easy to Use cards -->
-<div class="row mt-4 g-4">
-  <!-- Card 3 -->
-  <div class="col-12 col-md-6">
-    <div class="card h-100 text-center">
-      <img
-        src="{{ url_for('static', filename='images/feature3.jpg') }}"
-        class="card-img-top"
-        alt="Feature 3"
-      />
-      <div class="card-body d-flex flex-column">
-        <h5 class="card-title">24/7 Support</h5>
-        <p class="card-text">
-          Our dedicated team is here to help you anytime you need assistance.
-        </p>
-        <a href="{{ url_for('contact') }}" class="btn btn-primary mx-auto mt-auto">
-          Contact Us
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Card 2 (right of 24/7 Support) -->
-  <div class="col-12 col-md-6">
-    <div class="card h-100 text-center">
-      <img
-        src="{{ url_for('static', filename='images/feature2.jpg') }}"
-        class="card-img-top"
-        alt="Feature 2"
-      />
-      <div class="card-body d-flex flex-column">
-        <h5 class="card-title">Easy to Use</h5>
-        <p class="card-text">
-          Simple and intuitive interface designed with users in mind.
-        </p>
-        <a href="{{ url_for('aboutme') }}" class="btn btn-primary mx-auto mt-auto">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>

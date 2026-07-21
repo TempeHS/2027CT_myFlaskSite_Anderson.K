@@ -1,0 +1,37 @@
+{% extends 'base.html' %} {% block title %}RPM Counter - My Flask Site{%
+endblock %} {% block content %}
+
+<div class="container py-5">
+  <h1 class="text-center mb-5">RPM Counter</h1>
+
+  <!-- Narrow overall content width -->
+  <div class="mx-auto" style="max-width: 1100px">
+    <div class="row g-4 align-items-center">
+      <!-- Text (left) -->
+      <div class="col-12 col-lg-7">
+        <h4 class="fs-2">Why I created it</h4>
+        <p class="fs-5 mb-0">
+          I built this to measure my
+          <a href="{{ url_for('spinningtop') }}">Long Lasting Spinning Top</a>.
+          Neodymium Magnets on the top trigger a Hall Effect Sensor, and an
+          Arduino Uno Clone sends live RPM data to my computer via USB-C. I
+          originally got the idea to build an RPM counter to replicate the data
+          shown in a Formula One car, where each detail about the car's RPM is
+          crucial in knowing what gear the car should be in.
+        </p>
+      </div>
+
+      <!-- Image (right) -->
+      <div class="col-12 col-lg-5 d-flex align-items-center">
+        <img
+          src="{{ url_for('static', filename='images/hero1.jpg') }}"
+          class="img-fluid rounded shadow-sm w-100"
+          alt="RPM Counter"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4 g-4"></div>
+</div>
+{% endblock %}
