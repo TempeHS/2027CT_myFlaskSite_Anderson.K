@@ -6,7 +6,7 @@ block content %}
     margin-top: -70px; /* cancels the body padding so the carousel touches the navbar */
   }
   .hero-fullscreen .carousel-item img {
-    height: 100vh; /* forces scrolling to see content below */
+    height: 60vh; /* forces scrolling to see content below */
     object-fit: cover;
   }
   .scroll-reveal {
@@ -198,7 +198,7 @@ block content %}
         <div class="card-body px-0">
           <h5 class="card-title">Contact Me</h5>
           <p class="card-text">I'd love to hear from you!</p>
-          <a href="{{ url_for('contact') }}" class="btn btn-primary"
+          <a href="#hobbies" class="btn btn-primary" id="aboutScrollBtn"
             >Contact Me</a
           >
         </div>
@@ -365,6 +365,113 @@ block content %}
     </div>
   </div>
 </section>
+
+<div class="container py-5 contact-all-black">
+
+  <h1 class="text-center mb-5">Contact Me</h1>
+  <div class="row">
+    <!-- Map Column -->
+    <div class="col-lg-6 mb-4">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d720.1616988351769!2d151.16063594715152!3d-33.920257440674035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b08afb16153d%3A0xbd21d225e980c8aa!2sTempe%20High%20School!5e1!3m2!1sen!2sau!4v1782350616188!5m2!1sen!2sau"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+
+      <!-- Contact Info (moved below map) -->
+      <div class="contact-info mt-4">
+        <h4>Interested? Lets Talk</h4>
+
+<ul class="list-unstyled mb-0">
+  <li class="mb-2">
+    <strong>📍</strong> Unwins Bridge Rd, Tempe NSW 2044
+  </li>
+  <li class="mb-2"><strong>📞</strong> (+61) 434 667 414</li>
+  <li class="mb-2">
+    <strong>🌐</strong> My Github:
+    <a href="https://github.com/andersonkho" target="_blank" rel="noopener noreferrer">
+      Github.com/AndersonKho
+    </a>
+  </li>
+  <li>
+    <strong>✉️</strong> Anderson.Kho@education.nsw.gov.au
+  </li>
+</ul>
+      </div>
+    </div>
+
+    <!-- Form Column -->
+    <div class="col-lg-6 mb-4">
+      <div class="contact-form">
+        <h4 class="mb-4">Send us a Message</h4>
+
+        <form action="#" method="POST">
+          <!-- Name Field -->
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name *</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Employer"
+              required
+            />
+          </div>
+
+          <!-- Email Field -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address *</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+            />
+          </div>
+
+          <!-- Subject Field -->
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <select class="form-select" id="subject" name="subject">
+              <option value="" selected>Choose a topic...</option>
+              <option value="general">General Inquiry</option>
+              <option value="support">Support</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <!-- Message Field -->
+          <div class="mb-3">
+            <label for="message" class="form-label">Message *</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="What can I help you with?""
+              required
+            ></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary btn-lg w-100 send-message-btn">
+    Send Message
+  </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
   const revealItems = document.querySelectorAll(".scroll-reveal");
