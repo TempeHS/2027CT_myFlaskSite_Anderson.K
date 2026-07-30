@@ -66,8 +66,15 @@ My website Anderson Kho will be an interesting and different way employers view 
 
 | Page    | Route      | What it delivers |
 | ------- | ---------- | ---------------- |
-| Home    | `/`        |                  |
-| Contact | `/contact` |                  |
+| Home    | `/home`    |This is the first site any user sees, and it holds information on what the website is about as well as a little blurb on who I am.|
+| Contact | `/contact` |This is the page where any questions can be directed my way through a contact form.|
+| My Hobbies | `/hobbies` |This is the page where I talk about my interests and what I do in my free time.|
+| About Me | `/about` |This is the page where I give information on everything about me and who I am.|
+| My Projects | `/projects` |This is the page where I talk about the different projects I have either done, or am currently doing.|
+| RPM Counter | `/rpmcounter` |This is the page where I show a build I made using an Arduino Uno Clone and a hall effect sensor.|
+| Long Lasting Spinning Top | `/long` |This is the page where I show my current ISTEM project to build the longest possible spin time for my spinning top using Autodesk Fusion.|
+| Python Mini Projects | `/python` |This is the page where I show all the Programming I have done so far, all put together in my Github profile.|
+
 
 ### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
 
