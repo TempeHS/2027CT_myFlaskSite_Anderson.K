@@ -35,15 +35,11 @@
 
 | Field            | Detail |
 | ---------------- | ------ |
-| **Link / Embed** |        |
+| **Link / Embed** |https://github.com/user-attachments/assets/4779b2d3-d761-47a2-a621-43b961878fbb|
 | **Duration**     |144 seconds|
-
-
-- Phone Display:
-
-- Laptop/Monitor Display: 
-
----
+| **Phone Display**     |<img width="395" height="812" alt="Screenshot 2026-07-31 at 08 52 45" src="https://github.com/user-attachments/assets/c1c77d54-b3e5-4964-8d28-b3d448f28070" />
+|
+ ---
 
 ## 3. Evaluation — Did You Deliver Your Statement of Intent?
 
@@ -102,7 +98,7 @@ Overall, I believe that I created a website that is visually appealing, function
 | Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
 | Flask         | Pallets Projects | BSD     | Web server and routing |
 |Google Maps    |Google            |Google Maps — © Google, licensed under the Google Maps Platform Terms of Service.|Embeded a map in the Contact Me for to show my location/where I can be found.|
-|Github Copilot |GitHub            |GitHub Copilot — Licensed under the GitHub Copilot Terms of Service (proprietary).|Helping me understand error messages and suggestions on fixing them.|
+|Github Copilot |GitHub            |AWS CLI|Helping me understand error messages and suggestions on fixing them.|
 
 ---
 
