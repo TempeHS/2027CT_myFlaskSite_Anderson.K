@@ -78,11 +78,17 @@ My website Anderson Kho will be an interesting and different way employers view 
 
 ### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
 
-> Take each aim in your Statement of Intent and evaluate **how well the
-> delivered site meets it**. Where did you meet your intent? Where did you fall
+ Where did you fall
 > short, and why? Support every judgement with evidence from your site.
 
-<!-- Write 2–3 paragraphs. -->
+I believe that I was able to successfully deliver my original intent and create a resume website that is both functional and memorable, something that I had aimed for from my Statement of Intent. I believe that I was able to meet the intent on providing employers/users with an easy to read/use website. I belive that I was able to introduce myself clearly and effectively with employers having to read less while still having a similar effect as reading a normal Resume/CV. The website that I made also demonstrates my programming skills through both the front and back end of my website while being able to solve the problem of boring resumes by adding pictures, as well as making my website more interactive.
+
+However, my website did come with some flaws. Although I labelled my website as generally easy to use, a user could be confused on where my nav bar would be given that it only retracts down when the cursor is hovering over the top of my website. Another problem with my website was the fact that I did not have enough time to complete the entire website so I did not properly connect the my hobbies card to any pages about my hobbies, therefore not successfully completing one of my Statement of Intent criterias which was to introduce myself clearly as the rest of the website is about myself when I am tasked to complete an objective. This could also my chances of an Employer wanting to hire me similar to those with a normal Resume/CV since I do not mention what I do when I am free, which would be something that would help the Employer understand a little more about me - what my work ethic would probably be like, or what skillsets I have that other candidates do not have. 
+
+Overall, this project mostly allowed me to successfully deliver my original intent by creating a resume website that is functional, memorable and something that would target employers. I managed to achieve my goals of making this site easy to use and navigate, where I introduced myself effectively, and demonstrated my programming skills through both the front-end design and the interactive features such as the scrolling animations and hero carousels. These choices helped solve the problems of traditional Resumes/CVs that are usually boring and repetative by presenting all my information in a more engaging and visually appealing way. Although my website has some flaw - such as the retracting navigation bar that may confuse some users on its location and the incomplete hobbies section due to time limitations - I still believe that I produced a website that reflects the purpose, audience, and features outlined in my Statement of Intent. I believe that with further refinement, the website could become a stronger and more reliable tool for me to hook future employers. 
+
+
+
 
 ### 3.4 Overall Effectiveness (1–2 paragraphs)
 
