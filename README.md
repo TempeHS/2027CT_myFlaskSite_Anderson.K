@@ -9,17 +9,13 @@
 | **Live Site / Codespaces URL** |https://reimagined-eureka-q746jqjgrg4qcgq9-5000.app.github.dev/|
 | **Date**                       |31/7/26|
 
-> Your website is the main piece of work. This README is short on purpose — it
-> points a reader to your **2-minute walkthrough** and gives an honest
-> **evaluation of what you delivered**.
-
 ---
 
 ## 1. Overview
 
-**Purpose:** <!-- One or two sentences: what the site is and why it exists (from your Statement of Intent). -->
+**Purpose:** Anderson Kho is a website for my resume. The site will feature a homepage that will be an introduction of myself, with a section the user can press if they are interested that will feature my resume/CV that will hold my previous achievements and accomplishments. It will ensure that the employer will be equipped with an adequate amount of information about me in order for the employer to make the choice to whether employ me or not. 
 
-**Target audience:** <!-- One sentence: who the site is for (from your personas). -->
+**Target audience:** My resume is to target employers who are hiring who are in search for people with the skillsets that I offer.
 
 **Technology stack:** Python Flask · Jinja2 templates · Bootstrap (CDN) · custom CSS · pytest
 
@@ -27,7 +23,7 @@
 
 ## 2. Walkthrough Video (2 minutes)
 
-This is the most important part of your documentation — it shows your website running.
+
 
 <!--
   Embed a ~2 minute walkthrough. Replace VIDEO_ID with your YouTube video ID:
@@ -40,25 +36,31 @@ This is the most important part of your documentation — it shows your website 
 | Field            | Detail |
 | ---------------- | ------ |
 | **Link / Embed** |        |
-| **Duration**     |        |
+| **Duration**     |144 seconds|
 
-**Your walkthrough should show:**
 
-- A tour of each page (Home and Contact)
-- Your key Bootstrap components working (navbar, carousel, cards, map, form)
-- The layout responding when the window is resized (navbar collapsing to a hamburger)
+- Phone Display:
+
+- Laptop/Monitor Display: 
 
 ---
 
 ## 3. Evaluation — Did You Deliver Your Statement of Intent?
 
-This is the most important written part of your documentation. Evaluate the
-website you **delivered** against the **Statement of Intent** you wrote during
-planning. Be honest and use evidence — point to a page, a feature or a test.
+After comparing my website with my statement of intent, I believe that I delivered my statement of intent accurately because the end result of my website was able to successfully meet with every goal I originally outlined to aim. My website was able to introduce everything about myself clearly on the homepage, and provides employers with an easy to use resume/CV while also showcasing my programming skills through a clean UI design and made it's features more interesting such as a scrolling feature and interactive hero carousels that solves the problem of traditional resumes being repetitive and often forgettable. By designing something visually pleasing, an employer would have a higher chance of potentially remembering my resume/CV. I have also ensured that it is faster and more engaging to read by minimising on unnecessary explanations and details while still containing the same information about myself. I believe that this final product reflects the purpose, features and audience I planned before making this website and showing that I was able to successfully deliver my original intent and create a resume website that is both functional and memorable. 
 
 ### 3.1 Your Statement of Intent
 
-<!-- Paste the Statement of Intent you wrote during planning so the reader can judge your site against it. -->
+Anderson Kho is the website for my resume. The site will feature a homepage that will be an introduction of myself, with a section the user can press if they are interested that will feature my resume/CV that will hold my previous achievements and accomplishments. It will ensure that the employer will be equipped with an adequate amount of information about me in order for the employer to make the choice to whether employ me or not. 
+
+An employer who has the job of reading and selecting resumes is often seen as boring and repetitive as they have the task to read multiple resumes that are all black and white, making it boring to read, as well as being easily forgotten, while only listing their skills instead of demonstrating. 
+
+I will design a website resume that will be able for employers to have an easy access to my resume/CV given that it is stored in one place, as well as being easily remembered as it is something that is not done often.  It will also show my skills of programming through my website and it's UI interface. This solves the problem of employers flicking through files by having my resume as something that is more aesthetically pleasing to read. 
+
+My resume is to target employers who are hiring who are in search for people with the skillsets that I offer. The resume websites will have everything required for a resume so that the employer will be able to quickly read through it, while finding my key strengths and achievements, giving them enough information to decide whether they want to hire me or not. 
+
+My website Anderson Kho will be an interesting and different way employers view and read my resume, making it easier and quicker to read, as well as being more comforting for the eyes to view with the UI interface, rather than the traditional black and white writing. The clear and concise information available on the homepage will allow the employer to get to know me, without ever meeting me, giving them a better understanding of me when they read the rest of my resume/CV that will cover all my achievements and accomplishments. This outcome is only achieved because I took the time to plan this website and identified the purpose, the audience and the features that should be included before I began building anything - laying down the foundation of a website that will be useful for me in the future, while putting a spin onto it. 
+
 
 ### 3.2 What You Delivered
 
