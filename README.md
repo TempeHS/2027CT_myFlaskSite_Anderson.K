@@ -86,11 +86,6 @@ Overall, this project mostly allowed me to successfully deliver my original inte
 
 ### 3.4 Overall Effectiveness (1–2 paragraphs)
 
-> Step back from the detail. Overall, **how effective** is the website at
-> achieving its purpose for its target audience? Weigh what works against what
-> falls short, and state what you would improve to better meet your intent.
-> give an overall judgement of how effective the website is at achieving its purpose for its target audience, and name the change that would most improve it.
-
 The overall effectiveness of my website can be seen through how welll it functions as a digital resume and how smoothly users can interact with its features. The site performs strongly in presenting information clearly, using visual elements to make the experience more engaging, and showcasing my programming skills through interactive components such as animations and hero carousels. These features help my website stand out and makes it more memorable than a traditional resume. However, the effectiveness is reduced by certain usability issues, such as my nav bar and incomplete hobbies section, which leaves part of my personal profile unfinished. These weaknesses can affect how easily an employer can navigate through the site and how fully they can understand who I am beyond my acedemic and professional capabilities and achievements. 
 
 Overall, I believe that I created a website that is visually appealing, functional and demonstrates a solid level of technical skill, making it an effective digital resume. The most important change moving forward would be improving time efficiency and page navigation so that users can move through the site without trouble and less confusion. Strengthening these areas would make my website feel more intuitive and more complete, ensuring that employers can learn everything about me, and whether I make a good fit or not in the company. By focusing on clearer navigation and better time management during development, future versions of the website would become more polished and more reliable to ensure that it is able to best represent my abilities. 
@@ -111,7 +106,7 @@ Overall, I believe that I created a website that is visually appealing, function
 
 ---
 
-> **Student Declaration:** All work submitted is my own except where explicitly acknowledged above.
+- **Student Declaration:** All work submitted is my own except where explicitly acknowledged above.
 
 
 Inspiration, code snippets, etc.
